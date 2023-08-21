@@ -7,7 +7,11 @@ import './App.css'
 
 function App() {
   return(
-  <Counter/>
+  <>
+  <Counter initialValue={0}/>
+  <Counter initialValue={999}/>
+  <Counter initialValue={-999}/>
+  </>
 )
 }
 
